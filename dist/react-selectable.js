@@ -922,8 +922,8 @@ var SelectableGroup = function (_React$Component) {
 			};
 
 			var spanStyle = {
-				backgroundColor: 'transparent',
-				border: '1px dashed #999',
+				backgroundColor: 'rgba(66, 134, 244, .5)',
+				border: '1px solid grey',
 				width: '100%',
 				height: '100%',
 				float: 'left'
@@ -1017,7 +1017,7 @@ SelectableGroup.defaultProps = {
 	tolerance: 0,
 	fixedPosition: false,
 	selectOnMouseMove: false,
-	preventDefault: true,
+	preventDefault: false,
 	enabled: true
 };
 
