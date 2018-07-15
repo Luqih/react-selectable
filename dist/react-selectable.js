@@ -797,6 +797,7 @@ var SelectableGroup = function (_React$Component) {
 			if ((0, _isNodeIn2.default)(e.target, function (node) {
 				return !!node.draggable;
 			})) return;
+			if (!e.shiftKey) return;
 
 			var node = _reactDom2.default.findDOMNode(this);
 			var collides = void 0,
